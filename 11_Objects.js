@@ -1,30 +1,25 @@
 /*
-    Objects are described as a collection of realted values. Similar to sets
-    
-    There are (2) methods to creating objcets
+    an object is a collection of realted properties
+
+    There are (3) ways to declare objects. The following examples are are declaring a variation of the 'Object' variable
+    And assigning an Object to it as value.
 */
 
-// Method-1: Using the 'Dot Syntax'
-var Animal = {}
-Animal.name = "Tiger"
-Animal.weight = "200kg"
-Animal.teeth = 40
+// Method-1: The 'Dot' notation
+var Object1 = {}
+Object1.name = "ARK"
+Object1.skinColor = "Brown"
+Object1.eyeColor = "Brown"
 
-// Method-2: Using the key-value pair syntax
-var Human = {
-    skinColor: "Brown",
-    legs: 2,
-    arms: 2,
-    eyes: 2,
+// Method-2: The 'Key-value pair'
+var Object2 = {
+    name: "Abdul Rehman Khan",
+    skinColor: "Orange",
+    eyeColor: "Black"
 }
 
-// Additional values can be added via 2 method.
-// the 'Dot Syntax'
-Human.eyeColor = "Blue"
-// The 'brackets syntax'
-Human["hairColor"] = "Black"
-
-// a complete object can be printed onto the console
-console.log(Human)
-console.clear()
-console.warn("HElLO!!!!")
+// Method-3: 'Bracket' Notation
+var Object3 = {}
+Object3["name"] = "A.Rehman.K"
+Object3["skinColor"] = "Fair"
+Object3["eyeColor"] = "Blue"
