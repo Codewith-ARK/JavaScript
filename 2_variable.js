@@ -1,4 +1,7 @@
-// we use the 'var' keyword to declare
+/* 
+ * we use the 'var' keyword to declare
+ */
+
 // declaring a variable named 'person'
 var person;
 

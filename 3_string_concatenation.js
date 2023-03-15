@@ -1,4 +1,4 @@
-// there are (2) ways to concatenate 2 strings in JavaScript
+// there are (2) ways to concatenate (combine) 2 strings in JavaScript
 
 // Method-1
 console.log("Hello" + "World")
