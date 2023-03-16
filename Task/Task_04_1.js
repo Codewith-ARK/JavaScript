@@ -1,3 +1,6 @@
+/*
+    Using the else-if statment to add additional 'if' conditions.
+*/
 var age = 10
 
 if(age >= 65){

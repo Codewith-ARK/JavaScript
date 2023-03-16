@@ -1,3 +1,6 @@
+/*
+    Using the switch case conditional statement to simplify the need for multiple 'if' statement
+*/
 var day = "Sunday"
 
 switch (day) {

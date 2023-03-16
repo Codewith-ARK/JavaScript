@@ -1,5 +1,6 @@
 /*
     Excersice: Defensive programming 
+    a programming paradigm where you prepare for every possible unideal solution.
 */
 function letterFinder(word, match) {
 
