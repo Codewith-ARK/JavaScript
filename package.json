@@ -1,0 +1,15 @@
+{
+  "type": "module",
+  "name": "my-awesome-package",
+  "version": "1.0.0",
+  "description": "my first npm package",
+  "main": "11_Objects.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ARK",
+  "license": "ISC",
+  "dependencies": {
+    "lower-case": "^2.0.2"
+  }
+}
