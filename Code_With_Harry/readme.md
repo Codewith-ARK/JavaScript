@@ -64,6 +64,66 @@ console.log(age)
 
 // Output: 19
 ```
-
-
+### Turnary Operator
+Syntax:
+```js
+(condition) ? if_true : if_false
+```
+Example:
+```js
+let result = (1>2) ? '1 is greater than 2':'1 is NOT greater than 2'
+console.log(result);
+```
 ---
+## Loops
+There are many types of loops in JS:
+- `For loop`
+```js
+for(let i=0; i<11; i++){
+    console.log(i);
+}
+```
+
+- `For-in loop:` Used for printing the values of an object
+```js
+// An object literal assigned to a variable named 'Obj'
+let obj = {
+    name: "ARK",
+    age: 19,
+    isMale: true
+}
+
+for(let keys in obj){
+    console.log(`${keys}: ${obj[keys]}`);
+}
+
+/*
+Output:
+    name: ARK
+    age: 19
+    isMale: true 
+*/
+```
+- `For-of loop:` used to iterate over the elements of an Array
+```js
+// Array of fruits (string).
+let arr = ['lemon', 'banana', 'apple', 'strawberry']
+for(let item of arr){
+    console.log(`${item}`)
+}
+/* 
+Output: 
+    lemon
+    banana
+    apple
+    strawberry 
+*/
+```
+- `While Loop`
+```js
+let i = 0;
+while(true){
+    console.log(++i);
+}
+// Output: 1, 2, 3...
+```

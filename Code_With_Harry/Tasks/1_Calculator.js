@@ -31,7 +31,6 @@ function increment(num){
 function decrement(num){
     return num--
 }
-
 function checkType(var1, expected1, var2, expected2){
     if(!typeof var1 == expected1.toLowerCase()){
         console.log("Value of 'Variable 1' is not", expected1)
