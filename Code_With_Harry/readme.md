@@ -127,3 +127,15 @@ while(true){
 }
 // Output: 1, 2, 3...
 ```
+---
+## String Methods
+```js
+let name = "ark";
+console.log(name.length) // tells the number of charachters present in the string
+console.log(name.toUpperCase()) // converts the string to UPPERCASE
+console.log(name.toLowerCase()) // converts the string to lowercase
+console.log(name.replace('a', 's')) // replaces 'a' in string 'ark' with 's'. Output: 'srk'
+```
+---
+## Arrays
+. . .
