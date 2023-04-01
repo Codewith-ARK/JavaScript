@@ -138,4 +138,15 @@ console.log(name.replace('a', 's')) // replaces 'a' in string 'ark' with 's'. Ou
 ```
 ---
 ## Arrays
-. . .
+A data type that is used to store collection of data types. 
+```js
+let arr = ['banana', 70, 3.142, true]
+```
+
+## Methods of Array
+```js
+arr.push("ARK") // adds new element at the end
+arr.pop() // removes element from the end
+arr.shift() // removes element from the front
+arr.unshift() // adds element from the front
+```
