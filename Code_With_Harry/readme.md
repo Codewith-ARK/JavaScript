@@ -149,4 +149,17 @@ arr.push("ARK") // adds new element at the end
 arr.pop() // removes element from the end
 arr.shift() // removes element from the front
 arr.unshift() // adds element from the front
+
+let newArr = [];
+
+newArr = arr.map((element)=>{
+    return element + 1;
+})
+newArr = arr.filter((element)=>{
+    return element>2; // will only display elements greater than 2
+})
+newArr = arr.reduce((e1, e2)=>{
+    return e1 + e2; // will add all the elements of an array
+})
+
 ```
