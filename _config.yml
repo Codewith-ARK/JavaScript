@@ -1,5 +1,6 @@
 plugins:
   - jekyll-relative-links
+  - jekyll-remote-theme # add this line to the plugins list if you already have one
 relative_links:
   enabled: true
   collections: true
@@ -7,9 +8,6 @@ include:
   - CONTRIBUTING.md
   - README.md
   - LICENSE.md
-  - COPYING.md
-  - CODE_OF_CONDUCT.md
-  - CONTRIBUTING.md
-  - ISSUE_TEMPLATE.md
-  - PULL_REQUEST_TEMPLATE.md
-theme: jekyll-theme-hacker
+remote_theme: pages-themes/hacker@v0.2.0
+title: Learn JavaScript - CodeWithARK
+description: Learn basics of JavaScript by following the step-by-step guided tutorial
