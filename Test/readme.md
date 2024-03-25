@@ -54,4 +54,68 @@
     Use for-loop that prints the table of 2 and 3
 
 11. ### Loops (pt. 2)
+
     Use while-loop that asks the user for answer of a questions. `What is 2+2?`. Keep asking the user until the user gives the correct answer. If the user gives the correct answer then `break` the loop.
+
+12. ### Use `typeof`
+
+Use the `typeof` opertor the determine the data types of the following variables:
+
+```javascript
+let job = "developer";
+let age = 20;
+let isMale = true;
+let list = [];
+let animal = {};
+```
+
+13. ### Objects
+    Create an object that looks like this:
+
+```javascript
+let obj = {
+  name: "ARK",
+  age: "20",
+  write: function () {
+    console.log(this.name + " is writing");
+  },
+};
+```
+
+- Now use the dot operator `(.)` to change the `name` property of the `obj` object.
+- Now use the bracket notation `[""]` to change the `age` property of the `obj` object.
+- Now use the dot notation `(.)` to call the `write function` of the `obj` object.
+
+14. ### Array
+    Create an array that looks like this:
+
+```javascript
+let arr = ["eggs", "bread", "flour", "vegetables", "fruits"];
+```
+
+- Now use `index` to change the `"bread"` value to `"onion"`.
+- Now use `index` to change the `"fruits"` value to `-0`.
+
+15. ### Functions
+
+- Create a function that prints `"Hello World!"` every time the function is called.
+
+```javascript
+console.log("Hello World!");
+```
+
+16. ### Functions (pt. 2)
+
+- Create a function that accepts a parameter named: `name`. every time the function is called it is passed a name by a user. The function that prints then following message:
+
+```javascript
+console.log("Hello there", name);
+```
+
+16. ### Functions (pt. 3)
+
+- Create a function that accepts two parameters named: `name`, `age`. every time the function is called it is passed a name and age by a user. The function then prints the following message:
+
+```javascript
+console.log(`Hello there ${name}, Your age is: ${age}`);
+```
