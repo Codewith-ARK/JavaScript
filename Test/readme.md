@@ -1,4 +1,4 @@
-JavaScript Practice Task
+# JavaScript Practice Task
 
 1. ### Print variables
    use the `console.log()` and `alert()` JavaScript functions to print the values of the following variable.
