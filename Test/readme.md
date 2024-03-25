@@ -112,10 +112,65 @@ console.log("Hello World!");
 console.log("Hello there", name);
 ```
 
-16. ### Functions (pt. 3)
+17. ### Functions (pt. 3)
 
 - Create a function that accepts two parameters named: `name`, `age`. every time the function is called it is passed a name and age by a user. The function then prints the following message:
 
 ```javascript
 console.log(`Hello there ${name}, Your age is: ${age}`);
 ```
+
+18. ### Calculator (part-1)
+    - Use functions to create a calculator application. The application will have the following functions:
+
+- **Addition**
+
+```javascript
+function addition(num1, num2) {
+  return num1 + num2;
+}
+```
+
+- **Subtraction**
+
+```javascript
+function subtraction(num1, num2) {
+  return num1 - num2;
+}
+```
+
+- **Multiplication**
+
+```javascript
+function multiplication(num1, num2) {
+  return num1 * num2;
+}
+```
+
+- **Division**
+
+```javascript
+function division(num1, num2) {
+  return num1 / num2;
+}
+```
+
+19. ### Calculator (part-2)
+
+- Now, call each function and pass it 2 parameters (e.g. pass them 2 numbers). Store the results of the function call in different variables.
+
+20. ### Calculator (part-3)
+
+- Create a function that will print whatever value is passed to it as a parameter.
+
+```javascript
+function printName(value) {
+  console.log(value);
+}
+```
+
+21. ### Calculator (part-4)
+    Put the whole program together.
+      1. Call functions with 2 number parameters.
+      1. Store the result of the function call in a variable.
+      1. Call the print function with name of the variable where you stored the result.
